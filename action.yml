@@ -1,0 +1,11 @@
+name: "Problem Matchers"
+description: "A collection of Problem Matchers."
+author: "YUMEMI Inc."
+branding:
+  icon: "alert-triangle"
+  color: "blue"
+runs:
+  using: "composite"
+  steps:
+    - shell: bash
+      run: echo '::warning::Use matchers for each purpose.'
