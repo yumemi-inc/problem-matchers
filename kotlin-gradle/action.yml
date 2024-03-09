@@ -1,0 +1,9 @@
+name: "Problem Matchers for Kotlin - Gradle"
+description: "A GitHub Action to setup Problem Matchers for Kotlin compiler on Gradle."
+author: "YUMEMI Inc."
+runs:
+  using: "composite"
+  steps:
+    - name: Setup
+      shell: bash
+      run: echo "::add-matcher::${GITHUB_ACTION_PATH}/matcher.json"
