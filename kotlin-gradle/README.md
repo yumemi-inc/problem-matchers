@@ -16,6 +16,10 @@ Just place this action step before Gradle commands.
 - run: ./gradlew ...
 ```
 
+Then, the warning/error during compile will be displayed as an annotation in the Files changed tab and Job Summaries of the pull request.
+
+![image](doc/image.png)
+
 ## Limitations
 
 See [problem-matchers.md](https://github.com/actions/toolkit/blob/main/docs/problem-matchers.md#limitations) in actions/toolkit.
