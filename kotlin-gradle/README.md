@@ -1,10 +1,10 @@
 # Problem Matchers for Kotlin - Gradle
 
-A GitHub Action to setup Problem Matchers for Kotlin compiler on Gradle.
+A GitHub Action that sets up Problem Matchers for Kotlin compiler on Gradle.
 
 ## Usage
 
-Just place this action step before Gradle commands.
+place this action step before Gradle tasks.
 
 ```yaml
 - uses: actions/checkout@v4

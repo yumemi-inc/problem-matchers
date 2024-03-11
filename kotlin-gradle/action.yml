@@ -1,5 +1,5 @@
 name: "Problem Matchers for Kotlin - Gradle"
-description: "A GitHub Action to setup Problem Matchers for Kotlin compiler on Gradle."
+description: "A GitHub Action that sets up Problem Matchers for Kotlin compiler on Gradle."
 author: "YUMEMI Inc."
 runs:
   using: "composite"
